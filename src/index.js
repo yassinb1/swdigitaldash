@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+let helloWorld = "Version 1"
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <h1>{helloWorld}</h1>
   </React.StrictMode>,
   document.getElementById('root')
 );
